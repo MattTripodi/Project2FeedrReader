@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE40BDFC1E143583008B8B51 /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE40BDFB1E143583008B8B51 /* ArticleTableViewCell.swift */; };
+		EE40BDFF1E143EC6008B8B51 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE40BDFE1E143EC6008B8B51 /* ModelData.swift */; };
+		EE40BE011E143F06008B8B51 /* WebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE40BE001E143F06008B8B51 /* WebViewViewController.swift */; };
 		EEEEF7231DF76C9300FA655D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEEF7221DF76C9300FA655D /* AppDelegate.swift */; };
 		EEEEF7251DF76C9300FA655D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEEF7241DF76C9300FA655D /* ViewController.swift */; };
 		EEEEF7281DF76C9300FA655D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEEEF7261DF76C9300FA655D /* Main.storyboard */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE40BDFB1E143583008B8B51 /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCell.swift; sourceTree = "<group>"; };
+		EE40BDFE1E143EC6008B8B51 /* ModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		EE40BE001E143F06008B8B51 /* WebViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewViewController.swift; sourceTree = "<group>"; };
 		EEEEF71F1DF76C9300FA655D /* FeedrReaderProject2-MattTripodi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FeedrReaderProject2-MattTripodi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEEEF7221DF76C9300FA655D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EEEEF7241DF76C9300FA655D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +41,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EE40BDF81E143283008B8B51 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EEEEF7241DF76C9300FA655D /* ViewController.swift */,
+				EE40BE001E143F06008B8B51 /* WebViewViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EE40BDF91E143292008B8B51 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				EEEEF7261DF76C9300FA655D /* Main.storyboard */,
+				EEEEF72B1DF76C9300FA655D /* LaunchScreen.storyboard */,
+				EEEEF7291DF76C9300FA655D /* Assets.xcassets */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		EE40BDFA1E1432A3008B8B51 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				EE40BDFB1E143583008B8B51 /* ArticleTableViewCell.swift */,
+			);
+			name = TableViewCells;
+			sourceTree = "<group>";
+		};
+		EE40BDFD1E143EA1008B8B51 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EE40BDFE1E143EC6008B8B51 /* ModelData.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		EEEEF7161DF76C9300FA655D = {
 			isa = PBXGroup;
 			children = (
@@ -55,10 +96,10 @@
 			isa = PBXGroup;
 			children = (
 				EEEEF7221DF76C9300FA655D /* AppDelegate.swift */,
-				EEEEF7241DF76C9300FA655D /* ViewController.swift */,
-				EEEEF7261DF76C9300FA655D /* Main.storyboard */,
-				EEEEF7291DF76C9300FA655D /* Assets.xcassets */,
-				EEEEF72B1DF76C9300FA655D /* LaunchScreen.storyboard */,
+				EE40BDF81E143283008B8B51 /* ViewControllers */,
+				EE40BDFA1E1432A3008B8B51 /* TableViewCells */,
+				EE40BDFD1E143EA1008B8B51 /* Model */,
+				EE40BDF91E143292008B8B51 /* UI */,
 				EEEEF72E1DF76C9300FA655D /* Info.plist */,
 			);
 			path = "FeedrReaderProject2-MattTripodi";
@@ -136,8 +177,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE40BE011E143F06008B8B51 /* WebViewViewController.swift in Sources */,
 				EEEEF7251DF76C9300FA655D /* ViewController.swift in Sources */,
+				EE40BDFC1E143583008B8B51 /* ArticleTableViewCell.swift in Sources */,
 				EEEEF7231DF76C9300FA655D /* AppDelegate.swift in Sources */,
+				EE40BDFF1E143EC6008B8B51 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +343,7 @@
 				EEEEF7331DF76C9300FA655D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
