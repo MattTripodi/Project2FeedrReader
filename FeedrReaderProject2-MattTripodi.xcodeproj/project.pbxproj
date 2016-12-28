@@ -10,8 +10,9 @@
 		EE40BDFC1E143583008B8B51 /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE40BDFB1E143583008B8B51 /* ArticleTableViewCell.swift */; };
 		EE40BDFF1E143EC6008B8B51 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE40BDFE1E143EC6008B8B51 /* ModelData.swift */; };
 		EE40BE011E143F06008B8B51 /* WebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE40BE001E143F06008B8B51 /* WebViewViewController.swift */; };
+		EE40BE031E1444A8008B8B51 /* NewsSourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE40BE021E1444A8008B8B51 /* NewsSourceViewController.swift */; };
 		EEEEF7231DF76C9300FA655D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEEF7221DF76C9300FA655D /* AppDelegate.swift */; };
-		EEEEF7251DF76C9300FA655D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEEF7241DF76C9300FA655D /* ViewController.swift */; };
+		EEEEF7251DF76C9300FA655D /* techCrunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEEF7241DF76C9300FA655D /* techCrunchViewController.swift */; };
 		EEEEF7281DF76C9300FA655D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEEEF7261DF76C9300FA655D /* Main.storyboard */; };
 		EEEEF72A1DF76C9300FA655D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEEEF7291DF76C9300FA655D /* Assets.xcassets */; };
 		EEEEF72D1DF76C9300FA655D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEEEF72B1DF76C9300FA655D /* LaunchScreen.storyboard */; };
@@ -21,9 +22,10 @@
 		EE40BDFB1E143583008B8B51 /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCell.swift; sourceTree = "<group>"; };
 		EE40BDFE1E143EC6008B8B51 /* ModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		EE40BE001E143F06008B8B51 /* WebViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewViewController.swift; sourceTree = "<group>"; };
+		EE40BE021E1444A8008B8B51 /* NewsSourceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsSourceViewController.swift; sourceTree = "<group>"; };
 		EEEEF71F1DF76C9300FA655D /* FeedrReaderProject2-MattTripodi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FeedrReaderProject2-MattTripodi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEEEF7221DF76C9300FA655D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EEEEF7241DF76C9300FA655D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EEEEF7241DF76C9300FA655D /* techCrunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = techCrunchViewController.swift; sourceTree = "<group>"; };
 		EEEEF7271DF76C9300FA655D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EEEEF7291DF76C9300FA655D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEEEF72C1DF76C9300FA655D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -44,7 +46,8 @@
 		EE40BDF81E143283008B8B51 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				EEEEF7241DF76C9300FA655D /* ViewController.swift */,
+				EE40BE021E1444A8008B8B51 /* NewsSourceViewController.swift */,
+				EEEEF7241DF76C9300FA655D /* techCrunchViewController.swift */,
 				EE40BE001E143F06008B8B51 /* WebViewViewController.swift */,
 			);
 			name = ViewControllers;
@@ -132,7 +135,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Matt Tripodi";
 				TargetAttributes = {
 					EEEEF71E1DF76C9300FA655D = {
@@ -178,9 +181,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE40BE011E143F06008B8B51 /* WebViewViewController.swift in Sources */,
-				EEEEF7251DF76C9300FA655D /* ViewController.swift in Sources */,
+				EEEEF7251DF76C9300FA655D /* techCrunchViewController.swift in Sources */,
 				EE40BDFC1E143583008B8B51 /* ArticleTableViewCell.swift in Sources */,
 				EEEEF7231DF76C9300FA655D /* AppDelegate.swift in Sources */,
+				EE40BE031E1444A8008B8B51 /* NewsSourceViewController.swift in Sources */,
 				EE40BDFF1E143EC6008B8B51 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,6 +229,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -275,6 +280,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;

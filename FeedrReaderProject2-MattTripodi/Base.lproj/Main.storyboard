@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="dW1-Gu-c5q">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -10,10 +10,56 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--News Source View Controller-->
+        <scene sceneID="reM-QA-LJQ">
+            <objects>
+                <viewController id="dW1-Gu-c5q" customClass="NewsSourceViewController" customModule="FeedrReaderProject2_MattTripodi" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Hgl-Oh-QnI"/>
+                        <viewControllerLayoutGuide type="bottom" id="aU8-yq-Ngj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1tn-c9-Lec">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose A News Source " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8cb-fp-Y7P">
+                                <rect key="frame" x="95" y="20" width="184" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d7g-LM-NwB">
+                                <rect key="frame" x="16.5" y="126.5" width="343" height="415"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="415" id="Cp5-WG-rg0"/>
+                                    <constraint firstAttribute="width" constant="343" id="ng6-jS-wd9"/>
+                                </constraints>
+                                <state key="normal" image="TechCrunchLogo">
+                                    <color key="titleColor" red="0.039540037512779236" green="0.58840656280517578" blue="0.003973374143242836" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="6yV-wU-5gu"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="d7g-LM-NwB" firstAttribute="centerX" secondItem="1tn-c9-Lec" secondAttribute="centerX" id="95y-Da-UhC"/>
+                            <constraint firstItem="8cb-fp-Y7P" firstAttribute="top" secondItem="Hgl-Oh-QnI" secondAttribute="bottom" id="NZR-gu-JtP"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="8cb-fp-Y7P" secondAttribute="trailing" constant="80" id="Rpr-lq-XK7"/>
+                            <constraint firstItem="8cb-fp-Y7P" firstAttribute="leading" secondItem="1tn-c9-Lec" secondAttribute="leadingMargin" constant="79" id="V7w-6a-BaR"/>
+                            <constraint firstItem="d7g-LM-NwB" firstAttribute="centerY" secondItem="1tn-c9-Lec" secondAttribute="centerY" id="kgX-hd-bXA"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Y9s-Vv-29h" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-601" y="139"/>
+        </scene>
+        <!--Tech Crunch View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FeedrReaderProject2_MattTripodi" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="techCrunchViewController" customModule="FeedrReaderProject2_MattTripodi" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -25,22 +71,28 @@
                             <navigationBar contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PGe-fj-nzD">
                                 <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <color key="barTintColor" red="0.24892687799999999" green="0.66276878120000005" blue="0.96160560849999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="barTintColor" red="0.039540037510000001" green="0.58840656280000003" blue="0.0039733741429999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <items>
                                     <navigationItem id="2GS-CZ-ZTO">
                                         <nil key="title"/>
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="bTF-YI-d9I">
+                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <connections>
+                                                <segue destination="dW1-Gu-c5q" kind="show" id="9Uc-sR-xCX"/>
+                                            </connections>
+                                        </barButtonItem>
                                         <view key="titleView" contentMode="scaleToFill" id="sI3-ng-wLJ">
                                             <rect key="frame" x="113" y="6" width="150" height="33"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Feedr Reader" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ewb-4B-MX6">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="TechCrunch" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ewb-4B-MX6">
                                                     <rect key="frame" x="6" y="4" width="136" height="25"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="20"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
-                                            <color key="backgroundColor" red="0.24892687799999999" green="0.66276878120000005" blue="0.96160560849999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="backgroundColor" red="0.039540037510000001" green="0.58840656280000003" blue="0.0039733741429999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </view>
                                     </navigationItem>
                                 </items>
@@ -113,7 +165,7 @@
                                 </connections>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" red="0.24892687799999999" green="0.66276878120000005" blue="0.96160560849999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.039540037510000001" green="0.58840656280000003" blue="0.0039733741429999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="3fg-DU-Sok" firstAttribute="top" secondItem="PGe-fj-nzD" secondAttribute="bottom" id="6EX-Xb-Oaa"/>
                             <constraint firstItem="PGe-fj-nzD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="A7K-1h-mze"/>
@@ -167,4 +219,7 @@
             <point key="canvasLocation" x="840.79999999999995" y="138.98050974512745"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="TechCrunchLogo" width="290" height="218"/>
+    </resources>
 </document>

@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  techCrunchViewController.swift
 //  FeedrReaderProject2-MattTripodi
 //
 //  Created by Matt Tripodi on 12/6/16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class techCrunchViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 	
 	@IBOutlet weak var tableView: UITableView!
 	
@@ -26,5 +26,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 		let cell = tableView.dequeueReusableCell(withIdentifier: "articleCell", for: indexPath)
 		return cell
 	}
+	
+	
 }
 
