@@ -8,14 +8,16 @@
 
 import UIKit
 
+
 class WebViewViewController: UIViewController {
 	
 	@IBOutlet weak var articleWebView: UIWebView!
 	
-
+	var urlTechCrunch: String!
+	
     override func viewDidLoad() {
         super.viewDidLoad()
-
+		articleWebView.loadRequest(URLRequest(url: URL(string: urlTechCrunch)!))
         // Do any additional setup after loading the view.
     }
 

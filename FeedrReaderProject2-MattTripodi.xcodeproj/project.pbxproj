@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EE40BDFC1E143583008B8B51 /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE40BDFB1E143583008B8B51 /* ArticleTableViewCell.swift */; };
+		EE40BDFC1E143583008B8B51 /* TechCrunchArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE40BDFB1E143583008B8B51 /* TechCrunchArticleTableViewCell.swift */; };
 		EE40BDFF1E143EC6008B8B51 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE40BDFE1E143EC6008B8B51 /* ModelData.swift */; };
 		EE40BE011E143F06008B8B51 /* WebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE40BE001E143F06008B8B51 /* WebViewViewController.swift */; };
 		EE40BE031E1444A8008B8B51 /* NewsSourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE40BE021E1444A8008B8B51 /* NewsSourceViewController.swift */; };
@@ -19,7 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EE40BDFB1E143583008B8B51 /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCell.swift; sourceTree = "<group>"; };
+		EE40BDFB1E143583008B8B51 /* TechCrunchArticleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TechCrunchArticleTableViewCell.swift; sourceTree = "<group>"; };
 		EE40BDFE1E143EC6008B8B51 /* ModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		EE40BE001E143F06008B8B51 /* WebViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewViewController.swift; sourceTree = "<group>"; };
 		EE40BE021E1444A8008B8B51 /* NewsSourceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsSourceViewController.swift; sourceTree = "<group>"; };
@@ -66,7 +66,7 @@
 		EE40BDFA1E1432A3008B8B51 /* TableViewCells */ = {
 			isa = PBXGroup;
 			children = (
-				EE40BDFB1E143583008B8B51 /* ArticleTableViewCell.swift */,
+				EE40BDFB1E143583008B8B51 /* TechCrunchArticleTableViewCell.swift */,
 			);
 			name = TableViewCells;
 			sourceTree = "<group>";
@@ -182,7 +182,7 @@
 			files = (
 				EE40BE011E143F06008B8B51 /* WebViewViewController.swift in Sources */,
 				EEEEF7251DF76C9300FA655D /* techCrunchViewController.swift in Sources */,
-				EE40BDFC1E143583008B8B51 /* ArticleTableViewCell.swift in Sources */,
+				EE40BDFC1E143583008B8B51 /* TechCrunchArticleTableViewCell.swift in Sources */,
 				EEEEF7231DF76C9300FA655D /* AppDelegate.swift in Sources */,
 				EE40BE031E1444A8008B8B51 /* NewsSourceViewController.swift in Sources */,
 				EE40BDFF1E143EC6008B8B51 /* ModelData.swift in Sources */,
