@@ -15,13 +15,13 @@ class WebViewViewController: UIViewController {
 	
 	var urlTechCrunch: String!
 	var urlTechRadar: String!
-	var urlIGN: String!
+	var urlEngadget: String!
 	
     override func viewDidLoad() {
         super.viewDidLoad()
 		articleWebView.loadRequest(URLRequest(url: URL(string: urlTechCrunch)!))
 		articleWebView.loadRequest(URLRequest(url: URL(string: urlTechRadar)!))
-		articleWebView.loadRequest(URLRequest(url: URL(string: urlIGN)!))
+		articleWebView.loadRequest(URLRequest(url: URL(string: urlEngadget)!))
 
         // Do any additional setup after loading the view.
     }
