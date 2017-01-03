@@ -11,6 +11,11 @@
 		EE40BDFF1E143EC6008B8B51 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE40BDFE1E143EC6008B8B51 /* ModelData.swift */; };
 		EE40BE011E143F06008B8B51 /* WebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE40BE001E143F06008B8B51 /* WebViewViewController.swift */; };
 		EE40BE031E1444A8008B8B51 /* NewsSourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE40BE021E1444A8008B8B51 /* NewsSourceViewController.swift */; };
+		EE40BE051E1AEF62008B8B51 /* TechRadarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE40BE041E1AEF62008B8B51 /* TechRadarViewController.swift */; };
+		EE40BE071E1AEFB3008B8B51 /* TechRadarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE40BE061E1AEFB3008B8B51 /* TechRadarTableViewCell.swift */; };
+		EE40BE0B1E1B197A008B8B51 /* IGNViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE40BE0A1E1B197A008B8B51 /* IGNViewController.swift */; };
+		EE40BE0D1E1B1996008B8B51 /* IGNTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE40BE0C1E1B1996008B8B51 /* IGNTableViewCell.swift */; };
+		EE40BE0F1E1B2530008B8B51 /* IGNModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE40BE0E1E1B2530008B8B51 /* IGNModel.swift */; };
 		EEEEF7231DF76C9300FA655D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEEF7221DF76C9300FA655D /* AppDelegate.swift */; };
 		EEEEF7251DF76C9300FA655D /* techCrunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEEF7241DF76C9300FA655D /* techCrunchViewController.swift */; };
 		EEEEF7281DF76C9300FA655D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEEEF7261DF76C9300FA655D /* Main.storyboard */; };
@@ -23,6 +28,11 @@
 		EE40BDFE1E143EC6008B8B51 /* ModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		EE40BE001E143F06008B8B51 /* WebViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewViewController.swift; sourceTree = "<group>"; };
 		EE40BE021E1444A8008B8B51 /* NewsSourceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsSourceViewController.swift; sourceTree = "<group>"; };
+		EE40BE041E1AEF62008B8B51 /* TechRadarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TechRadarViewController.swift; sourceTree = "<group>"; };
+		EE40BE061E1AEFB3008B8B51 /* TechRadarTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TechRadarTableViewCell.swift; sourceTree = "<group>"; };
+		EE40BE0A1E1B197A008B8B51 /* IGNViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IGNViewController.swift; sourceTree = "<group>"; };
+		EE40BE0C1E1B1996008B8B51 /* IGNTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IGNTableViewCell.swift; sourceTree = "<group>"; };
+		EE40BE0E1E1B2530008B8B51 /* IGNModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IGNModel.swift; sourceTree = "<group>"; };
 		EEEEF71F1DF76C9300FA655D /* FeedrReaderProject2-MattTripodi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FeedrReaderProject2-MattTripodi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEEEF7221DF76C9300FA655D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EEEEF7241DF76C9300FA655D /* techCrunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = techCrunchViewController.swift; sourceTree = "<group>"; };
@@ -48,6 +58,8 @@
 			children = (
 				EE40BE021E1444A8008B8B51 /* NewsSourceViewController.swift */,
 				EEEEF7241DF76C9300FA655D /* techCrunchViewController.swift */,
+				EE40BE041E1AEF62008B8B51 /* TechRadarViewController.swift */,
+				EE40BE0A1E1B197A008B8B51 /* IGNViewController.swift */,
 				EE40BE001E143F06008B8B51 /* WebViewViewController.swift */,
 			);
 			name = ViewControllers;
@@ -67,6 +79,8 @@
 			isa = PBXGroup;
 			children = (
 				EE40BDFB1E143583008B8B51 /* TechCrunchArticleTableViewCell.swift */,
+				EE40BE061E1AEFB3008B8B51 /* TechRadarTableViewCell.swift */,
+				EE40BE0C1E1B1996008B8B51 /* IGNTableViewCell.swift */,
 			);
 			name = TableViewCells;
 			sourceTree = "<group>";
@@ -75,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				EE40BDFE1E143EC6008B8B51 /* ModelData.swift */,
+				EE40BE0E1E1B2530008B8B51 /* IGNModel.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -140,6 +155,7 @@
 				TargetAttributes = {
 					EEEEF71E1DF76C9300FA655D = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = VJQVDWQ9VC;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -180,12 +196,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE40BE071E1AEFB3008B8B51 /* TechRadarTableViewCell.swift in Sources */,
 				EE40BE011E143F06008B8B51 /* WebViewViewController.swift in Sources */,
 				EEEEF7251DF76C9300FA655D /* techCrunchViewController.swift in Sources */,
 				EE40BDFC1E143583008B8B51 /* TechCrunchArticleTableViewCell.swift in Sources */,
 				EEEEF7231DF76C9300FA655D /* AppDelegate.swift in Sources */,
 				EE40BE031E1444A8008B8B51 /* NewsSourceViewController.swift in Sources */,
+				EE40BE0F1E1B2530008B8B51 /* IGNModel.swift in Sources */,
+				EE40BE0B1E1B197A008B8B51 /* IGNViewController.swift in Sources */,
 				EE40BDFF1E143EC6008B8B51 /* ModelData.swift in Sources */,
+				EE40BE0D1E1B1996008B8B51 /* IGNTableViewCell.swift in Sources */,
+				EE40BE051E1AEF62008B8B51 /* TechRadarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +331,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VJQVDWQ9VC;
 				INFOPLIST_FILE = "FeedrReaderProject2-MattTripodi/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.matttripodi.FeedrReaderProject2-MattTripodi";
@@ -322,6 +344,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VJQVDWQ9VC;
 				INFOPLIST_FILE = "FeedrReaderProject2-MattTripodi/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.matttripodi.FeedrReaderProject2-MattTripodi";

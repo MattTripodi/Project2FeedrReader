@@ -1,21 +1,22 @@
 //
-//  TechCrunchArticleTableViewCell.swift
+//  TechRadarTableViewCell.swift
 //  FeedrReaderProject2-MattTripodi
 //
-//  Created by Matt Tripodi on 12/28/16.
-//  Copyright © 2016 Matt Tripodi. All rights reserved.
+//  Created by Matt Tripodi on 1/2/17.
+//  Copyright © 2017 Matt Tripodi. All rights reserved.
 //
 
 import UIKit
 
-class TechCrunchArticleTableViewCell: UITableViewCell {
-
-	@IBOutlet weak var articleImageView: UIImageView!
-	@IBOutlet weak var titleLabel: UILabel!
-	@IBOutlet weak var descriptionLabel: UILabel!
-	@IBOutlet weak var authorLabel: UILabel!
+class TechRadarTableViewCell: UITableViewCell {
 	
-	// To get the cell to display the image
+	//IBOutlets
+	@IBOutlet weak var techRadarArticleImage: UIImageView!
+	@IBOutlet weak var techRadarTitleLabel: UILabel!
+	@IBOutlet weak var techRadarDescriptionLabel: UILabel!
+	@IBOutlet weak var techRadarAuthorLabel: UILabel!
+	
+	// To get the cell to display the image 
 	func updateCell(cellData: Article) {
 		let url = URL(string: cellData.urlToImage!)
 		
@@ -24,7 +25,7 @@ class TechCrunchArticleTableViewCell: UITableViewCell {
 				let urlData = try Data(contentsOf: url!)
 				
 				DispatchQueue.main.async {
-					self.articleImageView.image = UIImage(data: urlData)
+					self.techRadarArticleImage.image = UIImage(data: urlData)
 				}
 				
 			} catch {
