@@ -7,17 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE40BDFC1E143583008B8B51 /* TechCrunchArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE40BDFB1E143583008B8B51 /* TechCrunchArticleTableViewCell.swift */; };
+		EE40BDFF1E143EC6008B8B51 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE40BDFE1E143EC6008B8B51 /* ModelData.swift */; };
+		EE40BE011E143F06008B8B51 /* WebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE40BE001E143F06008B8B51 /* WebViewViewController.swift */; };
+		EE40BE031E1444A8008B8B51 /* NewsSourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE40BE021E1444A8008B8B51 /* NewsSourceViewController.swift */; };
+		EE40BE051E1AEF62008B8B51 /* TechRadarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE40BE041E1AEF62008B8B51 /* TechRadarViewController.swift */; };
+		EE40BE071E1AEFB3008B8B51 /* TechRadarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE40BE061E1AEFB3008B8B51 /* TechRadarTableViewCell.swift */; };
+		EE40BE0B1E1B197A008B8B51 /* EngadgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE40BE0A1E1B197A008B8B51 /* EngadgetViewController.swift */; };
+		EE40BE0D1E1B1996008B8B51 /* EngadgetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE40BE0C1E1B1996008B8B51 /* EngadgetTableViewCell.swift */; };
 		EEEEF7231DF76C9300FA655D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEEF7221DF76C9300FA655D /* AppDelegate.swift */; };
-		EEEEF7251DF76C9300FA655D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEEF7241DF76C9300FA655D /* ViewController.swift */; };
+		EEEEF7251DF76C9300FA655D /* techCrunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEEF7241DF76C9300FA655D /* techCrunchViewController.swift */; };
 		EEEEF7281DF76C9300FA655D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEEEF7261DF76C9300FA655D /* Main.storyboard */; };
 		EEEEF72A1DF76C9300FA655D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEEEF7291DF76C9300FA655D /* Assets.xcassets */; };
 		EEEEF72D1DF76C9300FA655D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEEEF72B1DF76C9300FA655D /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE40BDFB1E143583008B8B51 /* TechCrunchArticleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TechCrunchArticleTableViewCell.swift; sourceTree = "<group>"; };
+		EE40BDFE1E143EC6008B8B51 /* ModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		EE40BE001E143F06008B8B51 /* WebViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewViewController.swift; sourceTree = "<group>"; };
+		EE40BE021E1444A8008B8B51 /* NewsSourceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsSourceViewController.swift; sourceTree = "<group>"; };
+		EE40BE041E1AEF62008B8B51 /* TechRadarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TechRadarViewController.swift; sourceTree = "<group>"; };
+		EE40BE061E1AEFB3008B8B51 /* TechRadarTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TechRadarTableViewCell.swift; sourceTree = "<group>"; };
+		EE40BE0A1E1B197A008B8B51 /* EngadgetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EngadgetViewController.swift; sourceTree = "<group>"; };
+		EE40BE0C1E1B1996008B8B51 /* EngadgetTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EngadgetTableViewCell.swift; sourceTree = "<group>"; };
 		EEEEF71F1DF76C9300FA655D /* FeedrReaderProject2-MattTripodi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FeedrReaderProject2-MattTripodi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEEEF7221DF76C9300FA655D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EEEEF7241DF76C9300FA655D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EEEEF7241DF76C9300FA655D /* techCrunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = techCrunchViewController.swift; sourceTree = "<group>"; };
 		EEEEF7271DF76C9300FA655D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EEEEF7291DF76C9300FA655D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEEEF72C1DF76C9300FA655D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +51,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EE40BDF81E143283008B8B51 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EE40BE021E1444A8008B8B51 /* NewsSourceViewController.swift */,
+				EEEEF7241DF76C9300FA655D /* techCrunchViewController.swift */,
+				EE40BE041E1AEF62008B8B51 /* TechRadarViewController.swift */,
+				EE40BE0A1E1B197A008B8B51 /* EngadgetViewController.swift */,
+				EE40BE001E143F06008B8B51 /* WebViewViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EE40BDF91E143292008B8B51 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				EEEEF7261DF76C9300FA655D /* Main.storyboard */,
+				EEEEF72B1DF76C9300FA655D /* LaunchScreen.storyboard */,
+				EEEEF7291DF76C9300FA655D /* Assets.xcassets */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		EE40BDFA1E1432A3008B8B51 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				EE40BDFB1E143583008B8B51 /* TechCrunchArticleTableViewCell.swift */,
+				EE40BE061E1AEFB3008B8B51 /* TechRadarTableViewCell.swift */,
+				EE40BE0C1E1B1996008B8B51 /* EngadgetTableViewCell.swift */,
+			);
+			name = TableViewCells;
+			sourceTree = "<group>";
+		};
+		EE40BDFD1E143EA1008B8B51 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EE40BDFE1E143EC6008B8B51 /* ModelData.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		EEEEF7161DF76C9300FA655D = {
 			isa = PBXGroup;
 			children = (
@@ -55,10 +111,10 @@
 			isa = PBXGroup;
 			children = (
 				EEEEF7221DF76C9300FA655D /* AppDelegate.swift */,
-				EEEEF7241DF76C9300FA655D /* ViewController.swift */,
-				EEEEF7261DF76C9300FA655D /* Main.storyboard */,
-				EEEEF7291DF76C9300FA655D /* Assets.xcassets */,
-				EEEEF72B1DF76C9300FA655D /* LaunchScreen.storyboard */,
+				EE40BDF81E143283008B8B51 /* ViewControllers */,
+				EE40BDFA1E1432A3008B8B51 /* TableViewCells */,
+				EE40BDFD1E143EA1008B8B51 /* Model */,
+				EE40BDF91E143292008B8B51 /* UI */,
 				EEEEF72E1DF76C9300FA655D /* Info.plist */,
 			);
 			path = "FeedrReaderProject2-MattTripodi";
@@ -91,11 +147,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Matt Tripodi";
 				TargetAttributes = {
 					EEEEF71E1DF76C9300FA655D = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = VJQVDWQ9VC;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -136,8 +193,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEEEF7251DF76C9300FA655D /* ViewController.swift in Sources */,
+				EE40BE071E1AEFB3008B8B51 /* TechRadarTableViewCell.swift in Sources */,
+				EE40BE011E143F06008B8B51 /* WebViewViewController.swift in Sources */,
+				EEEEF7251DF76C9300FA655D /* techCrunchViewController.swift in Sources */,
+				EE40BDFC1E143583008B8B51 /* TechCrunchArticleTableViewCell.swift in Sources */,
 				EEEEF7231DF76C9300FA655D /* AppDelegate.swift in Sources */,
+				EE40BE031E1444A8008B8B51 /* NewsSourceViewController.swift in Sources */,
+				EE40BE0B1E1B197A008B8B51 /* EngadgetViewController.swift in Sources */,
+				EE40BDFF1E143EC6008B8B51 /* ModelData.swift in Sources */,
+				EE40BE0D1E1B1996008B8B51 /* EngadgetTableViewCell.swift in Sources */,
+				EE40BE051E1AEF62008B8B51 /* TechRadarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +246,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -231,6 +297,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -260,6 +327,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VJQVDWQ9VC;
 				INFOPLIST_FILE = "FeedrReaderProject2-MattTripodi/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.matttripodi.FeedrReaderProject2-MattTripodi";
@@ -272,6 +340,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VJQVDWQ9VC;
 				INFOPLIST_FILE = "FeedrReaderProject2-MattTripodi/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.matttripodi.FeedrReaderProject2-MattTripodi";
@@ -299,6 +368,7 @@
 				EEEEF7331DF76C9300FA655D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
