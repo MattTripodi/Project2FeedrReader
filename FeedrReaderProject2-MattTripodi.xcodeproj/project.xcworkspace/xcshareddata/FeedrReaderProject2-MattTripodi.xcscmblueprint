@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2A2D2AD588E9D7801F65F0787D19BF728ABB7EC4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3F86F80299463C2C4A2A6BF09E0A82D86131BF76" : 9223372036854775807,
+    "2A2D2AD588E9D7801F65F0787D19BF728ABB7EC4" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D5375020-5C5D-4A4D-9388-1A15593153DA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3F86F80299463C2C4A2A6BF09E0A82D86131BF76" : "",
+    "2A2D2AD588E9D7801F65F0787D19BF728ABB7EC4" : "Project2FeedrReader\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "FeedrReaderProject2-MattTripodi",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "FeedrReaderProject2-MattTripodi.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:MattTripodi\/Project2FeedrReader.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2A2D2AD588E9D7801F65F0787D19BF728ABB7EC4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:MattTripodi\/Project1.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3F86F80299463C2C4A2A6BF09E0A82D86131BF76"
+    }
+  ]
+}
